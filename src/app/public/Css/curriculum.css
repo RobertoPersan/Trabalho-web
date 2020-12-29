@@ -11,14 +11,14 @@
     max-width: 960px;
     width: 95%;
     padding: 5%;
-    margin: 10px 50px auto;
+    margin: -35px 50px auto;
 }
 
 .figura {
     max-width: 960px;
     width: 25%;
     padding: 5%;
-    margin: 0px 30px 10px; 
+    margin: 0px 30px 0px; 
 }
 
 img{

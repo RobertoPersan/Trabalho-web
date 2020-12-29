@@ -13,16 +13,20 @@
     color: white !important;
 }
 
+.recom {
+    height: 35vh;
+}
+
 /* Slider */
 .container-fluid{
     max-width: 960px;
     width: 95%;
     padding: 5%;
-    margin: 10px auto;
+    margin: 10px 10px -80px 10px;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
-    height: 90vh;
+    height: 70vh;
 }
 
 #mainSlider .carousel-caption{
