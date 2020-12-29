@@ -54,7 +54,7 @@ p {
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: #1d5297;
 }
 
 .titulosAzul{
@@ -75,7 +75,7 @@ p {
 }
 
 .carousel-inner{
-    height: 50vh;
+    height: 40vh;
 }
 
 .slider{
@@ -113,24 +113,24 @@ p {
      height: 100%;
      width: 100%;
      vertical-align: top;
- }
+}
 
- .slider img{
+.slider img{
      opacity: 0;
      visibility: hidden;
- }
+}
 
- .slider li input:checked ~ img{
+.slider li input:checked ~ img{
      opacity: 1;
      visibility: visible;
      z-index: 10;
- }
+}
 
- .slider input{
+.slider input{
     display: none;
- }
+}
 
- .slider label {
+.slider label {
      background-color: #fff;
      bottom: 10px;
      cursor: pointer;
@@ -139,10 +139,13 @@ p {
      position: absolute;
      width: 10px;
      z-index: 10;
- }
+}
+
+p.text-center {
+    height: 10px;
+}
 
 .textoFooter{
-    margin: 0px;
     margin-top: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
